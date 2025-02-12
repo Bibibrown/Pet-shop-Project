@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* -----------footer---------------  */
+
+        #footer {
+            background-color: #FFD700;
+            padding: 70px 0;
+            box-shadow: 0px -5px 10px rgb(166, 165, 165);
+            margin-top: 7%;
+        }
+
+        .container-f {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .f {
+            width: 25%;
+            padding: 0 20px;
+        }
+
+        .pic {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .pic img {
+            width: 100%;
+        }
+
+        .icon {
+            width: 30%;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .icon img {
+            width: 90%;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .nonetype li {
+            list-style-type: none;
+        }
+
+        .f a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:1023px) {
+            html {
+                min-width: 576px;
+            }
+
+            #content {
+                width: 100%;
+            }
+
+            .f {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        @media screen and (max-width:576px) {
+            html {
+                min-width: 350px;
+            }
+
+            #content {
+                width: 100%;
+            }
+
+            .f {
+                width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="footer">
+        <div class="container-f">
+            <div class="row">
+                <div class="f">
+                    <div class="pic">
+                        <img src="./img/logo-black.png" alt="">
+                    </div>
+
+                    <div class="icon">
+                        <a href=""><img src="./img/facebook-black.png" alt="Facebook"></a>
+                        <a href=""><img src="./img/instagram-black.png" alt="Instagram"></a>
+                        <a href=""><img src="./img/line-black.png" alt="Line"></a>
+                    </div>
+                </div>
+                <div class="f">
+                    <h5>ความช่วยเหลือ</h5>
+                    <ul>
+                        <li><a href="./howtobuy.html">วิธีสั่งซื้อ</a></li>
+                        <li><a href="./howtopay.html">วิธีชำระเงิน</a></li>
+                        <li><a href="./return.html">นโยบายการคืนสินค้า และการคืนเงิน</a></li>
+                        <li><a href="./faq.html">คำถามที่พบบ่อย</a></li>
+                    </ul>
+                </div>
+                <div class="f">
+                    <h5>เกี่ยวกับ PETOPIA</h5>
+                    <ul>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="./contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="f">
+                    <h5 class="ad">ที่อยู่</h5>
+                    <ul class="nonetype">
+                        <li>123 หมู่ 16 ถ.มิตรภาพ ต.ในเมือง
+                            อ.เมือง จ.ขอนแก่น 40002</li>
+                        <li>
+                            <p></p>
+                        </li>
+                        <li>petopiashop@gmail.com</li>
+                        <li>
+                            <p></p>
+                        </li>
+                        <li>086-123-4567</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

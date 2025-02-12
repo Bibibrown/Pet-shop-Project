@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 60%;
+            margin: 5rem auto;
+        }
+
+        .cart page {
+            margin: 80px auto;
+        }
+
+        .cart-info p {
+            margin-bottom: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cart-info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        th {
+            text-align: left;
+            padding: 5px;
+            color: #fff;
+            background-color: #ff523b;
+            font-weight: normal;
+        }
+
+        td {
+            padding: 10px 5px;
+        }
+
+        td input {
+            width: 40px;
+            height: 30px;
+            padding: 5px;
+        }
+
+        td a {
+            color: #ff523b;
+            font-size: 12px;
+        }
+
+        td img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        .total-price {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .total-price table {
+            border-top: 3px solid #ff523b;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        td:last-child {
+            text-align: right;
+        }
+
+        th:last-child {
+            text-align: right;
+        }
+
+        @media screen and (max-width:576px) {
+            .cart-info p {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./order/smartheart.jpg" alt="">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: ฿50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>฿50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./order/smartheart.jpg" alt="">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: ฿50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>฿50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./order/smartheart.jpg" alt="">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: ฿50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>฿50.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>฿200.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>฿200.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>฿400.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
